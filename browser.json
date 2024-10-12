@@ -1,0 +1,20 @@
+{"android": {
+  "default": "10.0",
+          "versions": {
+            "10.0": {
+               "image": "selenoid/android:10.0",
+              "port": "4444",
+              "path": "/wb/hub",
+              "env": [,
+                "VERBOSE=true",
+                "APPIUM_ARGS=--log--level debug"
+              ],
+              "selenoid:options": {
+                "enableVNC": "true",
+                "enableLog": "true",
+                "enableVideo": "true"
+              }
+            }
+          }
+  }
+}

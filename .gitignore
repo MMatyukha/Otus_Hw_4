@@ -1,0 +1,7 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+!**/src/java/org/example
+env.txtZone.Identifier

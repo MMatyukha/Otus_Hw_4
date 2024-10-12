@@ -1,0 +1,5 @@
+FROM maven: 3.8.1-jdk-17
+WORKDIR /wsl.localhost/Fedora-38/root/Otus_Hw_4/test/java
+COPY pom.xml
+copy /wsl.localhost/Fedora-38/root/Otus_Hw_4/test/java
+ENTRYPOINT ["/bin/bash", "entrypoint.sh"]
